@@ -9,5 +9,4 @@ Nach jedem Tastendruck wird die mittlere RGB-Leuchtdiode in der Farbe des Taster
 
 Nach der Init Funktion ist der ATmega2560 im Ruhezustand. Bei einem Tastendruck wird die passende Callback-Funktion aufgerufen, welche wiederum die passende Bewegungsfunktion aufruft. Diese Bewegungsfunktionen rufen die Funktionen dbMc_move/dbMc_rotate und die set color Funktion auf. Nach Ablauf der dbMc_move/dbMc_rotate Funktion wird die Stopp Funktion aufgerufen, diese Schaltet letztlich die LED aus. 
 
-
-![image](https://user-images.githubusercontent.com/115406836/200565199-9f8fda65-eaf0-430e-bf04-baafef0ccf81.png)
+![RPB1QiCm38RlUWh3ReEym0wZf7FAe5kBkvrA2UwijMDU38xI7KhVVL4SF3la4c8f_wSlHekMjAVknyB-_Y2Aub4y6ul03r7ixpoQGrzRQckF-kExLcZ4Wv0NR4ZmUzaHkKPik_QC9gPE7h79SYkkn6GupMUFjiCiMlQ5cEJ390YGsR5oOgxa4qmiWbxckL9Ila8-aaqoetBzB](https://user-images.githubusercontent.com/115406836/200668383-931f449c-009b-47c6-acc1-52f2e9887dea.svg)
